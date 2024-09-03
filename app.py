@@ -78,9 +78,8 @@ def handle_chat(prompt):
     # Simulate AI response
     response = OpenAI(api_key=st.secrets["default"]["OPENAI_API_KEY"]).chat.completions.create(
         model="gpt-4o-mini",
-        messages=st.session_state["messages"],
-        temperature=1,
-        max_tokens=4096
+        messages=st.session_state["messages"]
+        
     )
     st.session_state["messages"].append(add_timestamp({"role": "assistant", "content": response.choices[0].message.content}))
     st.chat_message("assistant").write(response.choices[0].message.content)
