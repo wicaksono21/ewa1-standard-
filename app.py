@@ -105,6 +105,16 @@ if not st.session_state['logged_in']:
         st.session_state['user'] = user
     st.stop()
 
+# Function to keep the session alive
+def keep_alive():
+    while True:
+        time.sleep(60)  # Pause for 60 seconds (1 minute)
+        st.write("Keeping session alive...")
+
+# Run the keep-alive function in the background
+if st.session_state['logged_in']:
+    st.experimental_rerun(keep_alive)
+
 # Chat UI
 st.title("💬 Essay Writing Assistant")
 if "messages" not in st.session_state:
