@@ -143,7 +143,7 @@ Additional Guidelines:
 • Clarifications: Always ask for clarification if the student's request is unclear to avoid giving a complete essay response
 
         """}),
-        add_timestamp({"role": "assistant", "content": ""Hi there! Ready to start your essay? I'm here to guide and help you improve your essay writing skills with activities like:\n"
+        add_timestamp({"role": "assistant", "content": "Hi there! Ready to start your essay? I'm here to guide and help you improve your essay writing skills with activities like:\n"
                "1. **Topic Selection**\n"
                "2. **Outlining**\n"
                "3. **Drafting**\n"
