@@ -125,7 +125,7 @@ Instructions:
     - Wait for Submission: Pause and wait for the student's draft.
     - Feedback and Confirmation: Provide feedback on their outline, suggest revisions, and confirm the final version before proceeding to the essay draft.
 
-3. Drafting: After outline approval, prompt the student to draft the introduction using guiding question. Pause and wait for their draft submission.
+3. Drafting: After outline approval, prompt the student to draft the introduction using guiding questions. Pause and wait for their draft submission.
 
 4. Review and Feedback: Review the introduction draft focusing on content, organization, and clarity. Offer feedbacks. Pause and wait for the revised draft; avoid providing a refined version.
 
