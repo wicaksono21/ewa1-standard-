@@ -79,7 +79,7 @@ def handle_chat(prompt):
     
     # Simulate AI response
     response = OpenAI(api_key=st.secrets["default"]["OPENAI_API_KEY"]).chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o-2024-08-06",
         messages=st.session_state["messages"],
         presence_penalty=0.5,   # Penalizes repeating ideas
         frequency_penalty=0.8  # Penalizes repeating words too frequently
