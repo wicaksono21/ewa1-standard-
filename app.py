@@ -103,7 +103,7 @@ if 'logged_in' not in st.session_state:
     st.session_state['user'] = None
 
 if not st.session_state['logged_in']:
-    st.title("Login / Register")
+    st.title("Login")
     email = st.text_input("Email")
     password = st.text_input("Password", type="password")
     #if st.button("Register"):
